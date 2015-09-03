@@ -1,8 +1,8 @@
 package model.behaviors.market;
 
-import data.city.City;
-import data.goods.Good;
-import data.goods.GoodTools;
+import dataStructures.city.City;
+import dataStructures.goods.Good;
+import dataStructures.goods.GoodTools;
 
 public class MarketPriceBehaviorCitySizeDependent implements IMarketPriceBehavior {
 

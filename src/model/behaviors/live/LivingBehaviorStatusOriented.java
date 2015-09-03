@@ -1,13 +1,13 @@
 package model.behaviors.live;
 
-import data.building.BuildingFactory;
-import data.city.City;
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
-import data.exceptions.GoodStockTooSmallException;
-import data.exceptions.MoneyTooSmallException;
-import data.person.Person;
-import data.person.SocialStatus;
+import dataStructures.building.BuildingFactory;
+import dataStructures.city.City;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.exceptions.GoodStockTooSmallException;
+import dataStructures.exceptions.MoneyTooSmallException;
+import dataStructures.person.Person;
+import dataStructures.person.SocialStatus;
 
 public class LivingBehaviorStatusOriented implements ILivingBehavior {
 

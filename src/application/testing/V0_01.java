@@ -1,9 +1,9 @@
 package application.testing;
 
 import model.behaviors.market.MarketBehaviorDemandDependent;
-import data.city.City;
-import data.goods.Demand;
-import data.goods.DemandFactory;
+import dataStructures.city.City;
+import dataStructures.goods.Demand;
+import dataStructures.goods.DemandFactory;
 
 public class V0_01 {
 

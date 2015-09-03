@@ -1,7 +1,7 @@
 package model.behaviors.buy;
 
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
 
 public interface IBuyBehavior {
 

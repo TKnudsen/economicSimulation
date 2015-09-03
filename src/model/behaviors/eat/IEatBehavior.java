@@ -1,7 +1,7 @@
 package model.behaviors.eat;
 
-import data.exceptions.HungerException;
-import data.person.Person;
+import dataStructures.exceptions.HungerException;
+import dataStructures.person.Person;
 
 public interface IEatBehavior {
 

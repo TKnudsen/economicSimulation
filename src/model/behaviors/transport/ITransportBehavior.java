@@ -1,9 +1,9 @@
 package model.behaviors.transport;
 
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
-import data.goods.Good;
-import data.goods.GoodStock;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.goods.Good;
+import dataStructures.goods.GoodStock;
 
 public interface ITransportBehavior {
 

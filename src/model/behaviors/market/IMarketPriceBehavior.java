@@ -1,6 +1,6 @@
 package model.behaviors.market;
 
-import data.goods.Good;
+import dataStructures.goods.Good;
 
 public interface IMarketPriceBehavior {
 

@@ -2,12 +2,12 @@ package model.behaviors.buy;
 
 import java.util.Map;
 
-import data.building.publicBuilding.Market;
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
-import data.goods.Good;
-import data.goods.GoodStock;
-import data.person.Person;
+import dataStructures.building.publicBuilding.Market;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.goods.Good;
+import dataStructures.goods.GoodStock;
+import dataStructures.person.Person;
 
 public class BuyBehaviorInstantForASetOfGoods implements IBuyBehavior {
 

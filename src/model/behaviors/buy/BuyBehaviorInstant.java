@@ -1,10 +1,10 @@
 package model.behaviors.buy;
 
-import data.building.publicBuilding.Market;
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
-import data.goods.Good;
-import data.person.Person;
+import dataStructures.building.publicBuilding.Market;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.goods.Good;
+import dataStructures.person.Person;
 
 public class BuyBehaviorInstant implements IBuyBehavior {
 

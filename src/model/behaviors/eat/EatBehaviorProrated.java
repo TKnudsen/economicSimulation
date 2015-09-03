@@ -1,11 +1,11 @@
 package model.behaviors.eat;
 
-import data.exceptions.CapacityUnderflowException;
-import data.exceptions.HungerException;
-import data.goods.Good;
-import data.goods.GoodClass;
-import data.goods.GoodTools;
-import data.person.Person;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.exceptions.HungerException;
+import dataStructures.goods.Good;
+import dataStructures.goods.GoodClass;
+import dataStructures.goods.GoodTools;
+import dataStructures.person.Person;
 
 public class EatBehaviorProrated implements IEatBehavior {
 

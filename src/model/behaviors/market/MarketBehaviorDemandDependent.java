@@ -1,9 +1,9 @@
 package model.behaviors.market;
 
-import data.building.publicBuilding.Market;
-import data.goods.Demand;
-import data.goods.Good;
-import data.goods.GoodTools;
+import dataStructures.building.publicBuilding.Market;
+import dataStructures.goods.Demand;
+import dataStructures.goods.Good;
+import dataStructures.goods.GoodTools;
 
 public class MarketBehaviorDemandDependent implements IMarketPriceBehavior {
 

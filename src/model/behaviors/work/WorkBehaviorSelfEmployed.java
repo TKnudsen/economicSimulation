@@ -8,11 +8,11 @@ import model.behaviors.buy.BuyBehaviorInstantForASetOfGoods;
 import model.behaviors.buy.IBuyBehavior;
 import model.behaviors.sell.ISellBehavior;
 import model.behaviors.sell.SellBehaviorInstantForASetOfGoods;
-import data.building.workBuilding.WorkBuilding;
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
-import data.goods.Good;
-import data.person.Person;
+import dataStructures.building.workBuilding.WorkBuilding;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.goods.Good;
+import dataStructures.person.Person;
 
 public class WorkBehaviorSelfEmployed implements IWorkBehavior {
 

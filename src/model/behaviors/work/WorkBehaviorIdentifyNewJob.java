@@ -2,20 +2,20 @@ package model.behaviors.work;
 
 import java.util.Map;
 
-import data.building.BuildingFactory;
-import data.building.BuildingTools;
-import data.city.City;
-import data.exceptions.CapacityOverflowException;
-import data.exceptions.CapacityUnderflowException;
-import data.exceptions.GoodStockTooSmallException;
-import data.exceptions.MoneyTooSmallException;
-import data.goods.Good;
-import data.goods.GoodTools;
-import data.job.Job;
-import data.job.JobFactory;
-import data.job.JobTools;
-import data.job.Jobtype;
-import data.person.Person;
+import dataStructures.building.BuildingFactory;
+import dataStructures.building.BuildingTools;
+import dataStructures.city.City;
+import dataStructures.exceptions.CapacityOverflowException;
+import dataStructures.exceptions.CapacityUnderflowException;
+import dataStructures.exceptions.GoodStockTooSmallException;
+import dataStructures.exceptions.MoneyTooSmallException;
+import dataStructures.goods.Good;
+import dataStructures.goods.GoodTools;
+import dataStructures.job.Job;
+import dataStructures.job.JobFactory;
+import dataStructures.job.JobTools;
+import dataStructures.job.Jobtype;
+import dataStructures.person.Person;
 
 public class WorkBehaviorIdentifyNewJob implements IWorkBehavior {
 
